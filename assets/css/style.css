@@ -1,0 +1,89 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0;
+}
+h1{
+    text-align: center;
+    font-size: 10rem;
+    margin: 0;
+    background-color: #a00;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#navigation{
+    background-color: #a00;
+    border-bottom: 5px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#navigation button{
+    background-color: #f22;
+    border: 1px solid #a00;
+    color: #fff;
+}
+
+#navigation button:hover{
+    background-color: #a00;
+    transition: 100ms;
+}
+
+#featuredProducts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+    
+#featuredProducts img{
+    height: 300px;
+    width: 100%;
+    transform-origin: top left;
+}
+
+#featuredProducts figure{
+    background-color: #f22;
+    box-shadow: 8px 8px 4px 4px #2f2f2f;
+    color: #fff
+}
+
+#featuredProducts figure:hover{
+    transform: scale(1.02);
+    transition: 200ms ease-in-out;
+    cursor: pointer;
+    box-shadow: 12px 12px 6px 6px #2f2f2f;
+}
+
+
+/* #featuredProducts img.first-image {
+    transform: scale(1.5);
+} */
+
+#featuredProducts h2{
+    font-size: 3rem;
+    padding: 1rem;
+    margin: 0;
+}
+
+#featuredProducts h3{
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 0;
+}
+
+#featuredProducts p{
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin: 0;
+}
+
+button{
+    height: 80px;
+    font-size: 2rem;
+}
+
+button:hover{
+    cursor: pointer;
+}
